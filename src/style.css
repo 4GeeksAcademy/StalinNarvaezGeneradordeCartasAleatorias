@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  margin-top: 20px;
+}
+.card {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 280px;
+}
+#valor {
+  font-family: "Eczar", serif;
+  font-size: 130px;
+}
+#palo2 {
+  transform: rotate(180deg);
+}
+.botonNuevaCarta {
+  margin-top: 30px;
+  font-family: "Eczar", serif;
+  font-size: "25px";
+}
+.redimensionarCard {
+  margin-top: 20px;
+  padding-left: 40px;
+  font-family: "Eczar", serif;
+  align-content: center;
+}
+.cambiarTamaño {
+  margin-top: 20px;
+  align-content: center;
+  text-align: center;
+  font-family: "Eczar", serif;
+}
